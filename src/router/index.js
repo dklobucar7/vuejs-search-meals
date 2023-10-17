@@ -16,11 +16,7 @@ const routes = [
         name: "home",
         component: Home,
       },
-      {
-        path: "/by-name/:name?",
-        name: "byName",
-        component: MealsByName,
-      },
+
       {
         path: "/by-letter/:letter?",
         name: "byLetter",
@@ -30,6 +26,11 @@ const routes = [
         path: "/by-ingredients/:ingredient?",
         name: "byIngredients",
         component: MealsByIngredient,
+      },
+      {
+        path: "/by-name/:name?",
+        name: "byName",
+        component: MealsByName,
       },
     ],
   },
