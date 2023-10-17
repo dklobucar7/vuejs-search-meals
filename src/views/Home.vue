@@ -23,4 +23,5 @@ const meals = computed(() => store.state.meals)
 const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split("")
 //
 //
+//
 </script>
